@@ -1,0 +1,18 @@
+/* @media (min-width: 1025px) {
+    .intro-text-container {
+        max-width: 1 !important;
+    }
+}
+
+@media (max-width: 1280px) {
+    .intro__text {
+        font-size: 30px;
+    }
+}
+
+
+@media (max-width: 996px) {
+    .intro__text {
+        font-size: 24px;
+    }
+} */

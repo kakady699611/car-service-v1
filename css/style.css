@@ -1,0 +1,261 @@
+body{
+	padding: 0;
+	margin: 0;
+	/* background-color: #f1f1f1; */
+	background-color: rgb(24, 26, 27) !important;
+}
+html{
+	scroll-behavior: smooth;
+}
+
+.logo__font {	
+	font-family: 'CyberSiberia';
+	font-size: 28px;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+.text_link:hover {
+	text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #f1f1f1 !important;
+}
+
+.card-image img {
+	width: 100%;
+	border-radius: 10px 10px 0 0;
+	max-height: 261px;
+}
+
+.card-body {
+	display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.navmenu-icon {
+	color: #fff !important;
+	font-size: 24px !important;
+}
+
+.without-paddings {
+	padding: 0 !important;
+	margin: 0 !important;
+}
+
+.intro {
+	width: 100%;
+	height: 100%;
+}
+
+.intro-font{
+	font-family: 'Righteous', cursive;
+	font-weight: 300;
+	text-align: left;
+	color: #f1f1f1;
+	font-size: 72px;
+
+	margin-left: 5%;
+	padding-top: 500px;
+}
+
+.intro-text-container{
+	font-size: 40px;
+	font-weight: 600;
+	line-height: 1.2;
+	padding: 30px;
+	text-align: center;
+}
+
+
+.intro-background {
+	background-image: url('../img/1-1.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+}
+
+.intro-text{
+	line-height: 1.1;
+	padding-left: 5px;
+	padding-right: auto;
+	font-weight: 700;
+	font-size: 30px;
+	color: #ccc;
+}
+
+
+.intro__text {
+	font-family: 'd_cyberspace';
+	font-size: 100px;
+    font-weight: 400;
+	text-align: justify;
+    /* max-width: 110%; */
+    /* margin-left: 10%; */
+    margin-top: 10%;
+	/* font-size: 24px; */
+	text-align: center;
+	/* color: #fff; */
+	color: rgba(99, 99, 99, 1) !important;
+}
+
+
+.flex {
+	display: flex;
+}
+.flex-wrap{
+	flex-wrap: wrap;
+}
+.justify_between{
+	justify-content: space-between;
+}
+.justify_center {
+	justify-content: center;
+}
+
+.floating-button {
+	text-decoration: none;
+	display: inline-block;
+	/* width: 80%; */
+	width: 40%;
+	height: 45px;
+	line-height: 45px;
+	border-radius: 45px;
+	border: 1px #e1e1e1 solid;
+	margin: 10px 20px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	text-transform: uppercase;
+	text-align: center;
+	letter-spacing: 3px;
+	font-weight: 600;
+	color: #524f4e;
+	background: white;
+	box-shadow: 0 8px 15px rgba(0, 0, 0, .1);
+	transition: .3s;
+}
+.floating-button:hover {
+	background: #2EE59D;
+	box-shadow: 0 15px 20px rgba(46, 229, 157, .4);
+	color: #000;
+	transform: translateY(-7px);
+	text-decoration: none;
+}
+
+
+/* Popular */
+
+.popular__container {
+	padding: 2%;
+	margin: 2%;
+}
+/* Services */
+
+.services__container {
+	padding: 2%;
+	margin: 2%;
+}
+
+.card-desk {
+	display: flex !important;
+    flex-wrap: wrap !important;
+}
+
+.card {	
+	min-width: 240px !important;
+	background-color: rgba(34, 36, 37) !important;
+	color: #fff !important;
+}
+
+
+  /* FOOTER */
+.context-dark, .bg-gray-dark, .bg-primary {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.footer-classic a, .footer-classic a:focus, .footer-classic a:active {
+    color: #ffffff;
+}
+.nav-list li {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.nav-list li a:hover:before {
+    margin-left: 0;
+    opacity: 1;
+    visibility: visible;
+}
+
+ul, ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.social-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 23px;
+    font: 900 13px/1 "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.5);
+}
+.social-container .col {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+.nav-list li a:before {
+    content: "\f14f";
+    font: 400 21px/1 "Material Design Icons";
+    color: #4d6de6;
+    display: inline-block;
+    vertical-align: baseline;
+    margin-left: -28px;
+    margin-right: 7px;
+    opacity: 0;
+    visibility: hidden;
+    transition: .22s ease;
+}
+
+.footer__container {
+	margin: 1%;
+	padding: 1%;
+}
+
+.color-1 {
+	color: #fff !important;
+}
+
+.uppercase {
+	text-transform: uppercase !important;
+}
+
+.service-block__overlay {
+	background-color: rgba(0, 0, 0, .32);
+}
+
+.fs-80 {
+	font-size: 80px !important;
+}
+
+.modal {
+	color: #000 !important;
+}
+
+.modal{
+	color: #000 !important;
+}
+
+.modal-title {
+	color: #000 !important;
+}
+
+.text-center {
+	margin-right: auto;
+    margin-left: auto;
+}
